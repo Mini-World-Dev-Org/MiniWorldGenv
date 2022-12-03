@@ -1,10 +1,11 @@
-# `ScriptSupportVariable`
-> - `StdioRoot` `{string}` 游戏数据所在路径  
-> 如 `"C:/Users/Administrator/AppData/Roaming/miniworddata110/"` 。  
-> - `__cls__` `{string}` 类名
-> 等于 `"ScriptSupportVariable"` 。  
-> - `cache` `{table}` 空表，意义不明
-> - `msgpack` `{table}` [lua-MessagePack](https://github.com/oploadk/lua-MessagePack/)  
-> 即 lua-MessagePack 中的 `MessagePack` 模块。  
-> 模块详细描述参见 [lua-MessagePack 文档](https://fperrad.frama.io/lua-MessagePack/messagepack/)。  
-> - `super(tbl, super_name, method_name, arg)` `{function}` 意义不明
+# `genv`
+- 通常情况下，游戏的工作目录为程序所在目录，如 `"C:\Users\Administrator\AppData\Roaming\miniworldgameguan110"` 。  
+- 文档是文件和文件夹的统称，注意区分它们。  
+
+# 作用域
+- [`ScriptSupportVariable`](./ScriptSupportVariable.md)  
+---
+
+# 函数
+- [`gFunc_*`](./gFunc_.md)  
+---
