@@ -40,4 +40,4 @@ luac.out
 *.hex
 
 # 额外的忽略规则
-./tmp/
+/tmp/

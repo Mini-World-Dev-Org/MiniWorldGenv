@@ -4,6 +4,7 @@
 
 # 作用域
 - [`ScriptSupportVariable`](./ScriptSupportVariable.md)  
+- [`ns_start_notice`](./ns_start_notice.md)  
 ---
 
 # 函数
